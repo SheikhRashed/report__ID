@@ -3,10 +3,24 @@
   .container {
     position: relative;
     height: 100vh;
+    @include max(767px) {
+      height: 600px;
+    }
   }
   &-logo {
     position: absolute;
     top: 28px;
     left: 18px;
+  }
+}
+
+.report-date {
+  position: absolute;
+  right: 18px;
+  bottom: 25px;
+  h5 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
   }
 }
