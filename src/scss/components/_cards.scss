@@ -1,18 +1,5 @@
 // Info card
 
-.card-wrapper {
-  display: grid;
-  padding: 30px 40px;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-
-  @include max(767px) {
-    grid-template-columns: 1fr;
-  }
-  .card-info {
-  }
-}
-
 .card-info {
   position: relative;
   padding: 16px 0px;
@@ -32,6 +19,7 @@
     text-align: center;
     font-family: $bold;
     text-transform: capitalize;
+    padding-bottom: 30px;
   }
 
   &-contact-address {
@@ -39,8 +27,6 @@
     line-height: 16px;
     font-family: $regular;
     color: #fff;
-    padding: 30px 0px;
-    padding-bottom: 0px;
     text-align: center;
   }
 
@@ -48,15 +34,13 @@
     font-size: 14px;
     line-height: 21px;
     text-align: center;
-    padding: 30px 0px;
     padding-bottom: 0px;
     text-transform: uppercase;
     font-family: $bold;
   }
 
   &-lists {
-    padding: 30px 18px;
-    padding-bottom: 0px;
+    padding: 0px 18px;
     li {
       display: flex;
       align-items: center;

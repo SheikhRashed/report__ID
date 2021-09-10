@@ -2,7 +2,29 @@
   padding: 24px 0px;
   position: relative;
   z-index: 1;
-
-  .container {
+  &-title {
+    position: relative;
+    font-size: 18px;
+    color: color(primary);
+    line-height: 21px;
+    font-family: $bold;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    padding-bottom: 16px;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 162px;
+      background-color: color(primary);
+      height: 4px;
+    }
+  }
+  &-info-text {
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    padding: 18px 40px;
   }
 }
