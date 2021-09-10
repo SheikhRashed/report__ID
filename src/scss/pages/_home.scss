@@ -34,3 +34,35 @@
     }
   }
 }
+
+.promo {
+  border: 10px solid color(secondary);
+  border-left: 0px;
+  border-right: 0px;
+  &-content {
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    @include max(480px) {
+      flex-direction: column;
+    }
+    &-icon {
+      margin-right: 16px;
+    }
+    &-text {
+      width: 445px;
+      @include max(767px) {
+        width: 100%;
+      }
+      p {
+        font-size: 18px;
+        line-height: 21px;
+        font-family: $bold;
+        color: color(secondary);
+        @include max(480px) {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
