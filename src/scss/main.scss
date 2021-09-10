@@ -1,27 +1,13 @@
 // abstracts
-@import "abstracts/functions";
-@import "abstracts/variables";
+@import 'abstracts/variables';
+@import 'abstracts/functions';
 
 // base
-@import "base/typography";
-@import "base/reset";
-
-// layout
-@import "layout/header";
-@import "layout/nav";
-@import "layout/breadcrumb";
-@import "layout/footer";
+@import 'base/typography';
+@import 'base/reset';
 
 // components
-@import "components/buttons";
-@import "components/form";
+@import 'components/buttons';
 
-// pages
-@import "pages/home";
-@import "pages/contact";
-
-// vendor
-@import 'bootstrap/scss/bootstrap.scss';
-
-// themes
-@import 'themes/theme';
+// layout
+@import 'layout/hero';

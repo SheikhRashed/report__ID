@@ -1,39 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
 
 img {
-    border: 0;
-    outline: 0;
-    max-width: 100%;
+  border: 0;
+  outline: 0;
+  max-width: 100%;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: $bgColor;
-    font-family: $font;
+  font-family: $regular;
 }
 
 a {
-    display: inline-block;
-    color: $lightBlack;
-    @include animate(.3s);
+  display: inline-block;
 }
 
 li {
-    list-style-type: none;
-}
-
-p {
-    color: $black;
-    line-height: 24px;
-}
-
-.color {
-    color: $color;
+  list-style-type: none;
 }

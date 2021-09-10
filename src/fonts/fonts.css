@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'regular';
+  src: url('../fonts/regular.ttf');
+}
+@font-face {
+  font-family: 'medium';
+  src: url('../fonts/medium.ttf');
+}
+@font-face {
+  font-family: 'bold';
+  src: url('../fonts/bold.ttf');
+}
