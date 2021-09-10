@@ -10,3 +10,27 @@
     }
   }
 }
+
+.completa {
+  &-info {
+    padding: 20px 40px;
+    padding-bottom: 0px;
+    &-title {
+      text-transform: capitalize;
+      padding-bottom: 13px;
+    }
+
+    &-title,
+    ul li {
+      font-size: 12px;
+      line-height: 21px;
+      color: #fff;
+    }
+    ul {
+      padding-left: 12px;
+    }
+    ul li {
+      list-style: disc;
+    }
+  }
+}
