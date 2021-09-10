@@ -24,8 +24,24 @@
   &-subtitle {
     font-size: 14px;
     line-height: 21px;
+    font-family: $bold;
     color: color(secondary);
+    margin-top: 16px;
+    padding: 0px 18px;
   }
+
+  &-sitename {
+    font-size: 24px;
+    line-height: 21px;
+    font-family: $bold;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #00b0ff;
+    opacity: 0.2;
+    text-transform: uppercase;
+    text-transform: lowercase;
+  }
+
   &-info-text {
     font-size: 14px;
     line-height: 21px;
