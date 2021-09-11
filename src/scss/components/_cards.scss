@@ -78,7 +78,6 @@
   &-number {
     position: absolute;
     left: 50%;
-
     bottom: -30px;
     transform: translateX(-50%);
     display: flex;
@@ -92,6 +91,9 @@
     height: 40px;
     border-radius: 50%;
     background-color: color(secondary);
+    @include max(5757px) {
+      bottom: -20px;
+    }
   }
 }
 
@@ -109,5 +111,60 @@
     font-size: 12px;
     line-height: 21px;
     color: #fff;
+  }
+}
+
+.features-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-bottom: 4px;
+    span {
+      color: #fff;
+    }
+  }
+  .title {
+    font-size: 14px;
+    line-height: 11px;
+    font-family: $bold;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .bottom {
+    margin-top: 8px;
+    text-align: center;
+    .subtitle {
+      font-size: 8px;
+      line-height: 11px;
+      text-transform: capitalize;
+      color: color(primary);
+      font-family: $bold;
+      margin-bottom: 3px;
+    }
+    button {
+      font-size: 12px;
+      line-height: 11px;
+      font-family: $bold;
+      padding: 4px 25px;
+      border-radius: 11px;
+      text-transform: uppercase;
+      background-color: #00ff31;
+      color: #00951d;
+    }
+  }
+
+  &:hover {
+    .icon {
+      // box-shadow: ;
+    }
   }
 }
