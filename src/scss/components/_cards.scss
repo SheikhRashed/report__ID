@@ -168,3 +168,65 @@
     }
   }
 }
+
+.rischio__content {
+  padding: 0px 40px;
+  &-item {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px 0px;
+    border-bottom: 1px dotted color(secondary);
+    @include max(480px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    &:nth-last-child(1) {
+      border-bottom: 0px;
+    }
+
+    .left {
+      .section-subtitle {
+        margin: 0;
+        padding-bottom: 18px;
+      }
+      .icon {
+        width: 106px;
+        height: 106px;
+        margin-left: 12px;
+        border-radius: 50%;
+        border: 4px solid #00ff31;
+        align-items: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include max(480px) {
+          margin-bottom: 16px;
+        }
+      }
+    }
+    .right {
+      ul {
+        li {
+          display: flex;
+          border-bottom: 1px solid color(primary);
+          p {
+            font-size: 12px;
+            line-height: 21px;
+
+            &:nth-child(1) {
+              color: color(primary);
+              font-family: $bold;
+            }
+
+            &:nth-child(2) {
+              color: #fff;
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
