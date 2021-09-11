@@ -129,6 +129,11 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
+percircle@^1.0.29:
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/percircle/-/percircle-1.0.29.tgz#4f1a3e1f9b4eda2579bbd59e8ba7f8a7691de539"
+  integrity sha512-UKl4Fg4LKGDZvr9RL6d/5mWNT71iabhWBTkWsXxCizPae8mqFG8lZ0MgVEdfwT0F62OEz+0ju3llS0HQ+Kgkww==
+
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.3.tgz#465547f359ccc206d3c48e46a1bcb89bf7ee619d"
